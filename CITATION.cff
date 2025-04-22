@@ -1,0 +1,26 @@
+title: AI-READI Dataset Notebooks
+authors:
+  - given-names: Nayoon
+    family-names: Gim
+    affiliation: University of Washington
+  - given-names: Jamie
+    family-names: Shaffer
+    affiliation: University of Washington
+  - given-names: Bhavesh
+    family-names: Patel
+    affiliation: FAIR Data Innovations Hub, California Medical Innovations Institute
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+abstract: Jupyter notebooks that provide examples Python code snippets for
+  working with the AI-READI data
+keywords:
+  - AI-READI
+  - Notebooks
+  - Python
+  - Dataset
+  - Type 2 Diabetes
+  - Bridge2AI
+license: MIT
+repository-code: https://github.com/AI-READI/ai-readi-dataset-notebooks
+version: 1.0.0
