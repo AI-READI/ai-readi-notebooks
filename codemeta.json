@@ -1,0 +1,68 @@
+{
+  "name": "AI-READI Dataset Notebooks",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "applicationCategory": "Scientific",
+  "author": [
+    {
+      "affiliation": {
+        "name": "University of Washington",
+        "type": "Organization"
+      },
+      "familyName": "Gim",
+      "id": "_:author_1",
+      "givenName": "Nayoon",
+      "type": "Person"
+    },
+    {
+      "affiliation": {
+        "name": "University of Washington",
+        "type": "Organization"
+      },
+      "familyName": "Shaffer",
+      "id": "https://orcid.org/0000-0003-4045-7665",
+      "givenName": "Jamie",
+      "type": "Person"
+    },
+    {
+      "affiliation": {
+        "name": "FAIR Data Innovations Hub, California Medical Innovations Institute",
+        "type": "Organization"
+      },
+      "familyName": "Patel",
+      "id": "https://orcid.org/0000-0002-0307-262X",
+      "givenName": "Bhavesh",
+      "type": "Person"
+    }
+  ],
+  "codeRepository": "https://github.com/AI-READI/ai-readi-notebooks",
+  "dateCreated": "2024-07-25",
+  "description": "Jupyter notebooks that provide examples Python code snippets for working with the AI-READI data",
+  "developmentStatus": "active",
+  "downloadUrl": "https://github.com/AI-READI/ai-readi-notebooks",
+  "funder": {
+    "name": "National Institutes of Health (NIH)",
+    "type": "Organization"
+  },
+  "funding": "1OT2OD032644",
+  "isPartOf": "https://aireadi.org/",
+  "issueTracker": "https://github.com/AI-READI/ai-readi-notebooks/issues",
+  "keywords": [
+    "AI-READI",
+    "Notebooks",
+    "Python",
+    "Dataset",
+    "Type 2 Diabetes",
+    "Bridge2AI"
+  ],
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": [
+    "Python",
+    "Jupyter"
+  ],
+  "relatedLink": [
+    "https://docs.aireadi.org"
+  ],
+  "schema:releaseNotes": "First version",
+  "version": "1.0.0",
+  "type": "SoftwareSourceCode"
+}
