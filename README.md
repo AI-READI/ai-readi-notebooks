@@ -65,14 +65,14 @@ $ conda env create -f environment.yml
 ### Setup pre-commit
 Caution: at this time, the pre-commit requires bash shell, so if you plan to make updates to notebooks you may need to use a linux or linux-like environment that has access to a bash shell. A python implementation of the check may be created in the future.
 
-The purpose of this check is to avoid saving sensitive data into github. Be sure to use the jupyter tools to clean the outputs before attempting a checkin.
+The purpose of this check is to avoid saving sensitive data into github. Be sure to use the jupyter tools to clean the outputs before attempting a check in. Practice with the test_pre_commit notebook to confirm that you are prevented from checking in an update that contains a cell that has been run. Reminder that if you have stage and attempted to commit, use 'git restore --staged test_pre_commit.ipynb' to unstage and correct the file before trying again.
 ```sh
 $ conda activate ai-readi-notebooks
 $ pre-commit install
 ```
 
 ### Setup kernel for Jupyter lab
-If you would like to have one jupyter install that can be used by several environments, set up the connection as shown below. Otherwise, you can install jupyterlab or jupyter notebooks inside your ai-readi-notebooks environment using conda install.
+If you would like to have one jupyter install that can be used by several environments, set up the connection as shown below. Otherwise, you can install jupyterlab or jupyter notebooks inside your ai-readi-notebooks environment using 'conda install jupyterlab'.
 ```sh
 $ conda activate ai-readi-notebooks
 $ conda install ipykernel
