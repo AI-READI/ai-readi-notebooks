@@ -1,0 +1,14 @@
+repos:
+ # Codespell for common misspellings -- also an example of an outside pre-commit checker
+ - repo: https://github.com/codespell-project/codespell
+   rev: v2.3.0
+   hooks:
+     - id: codespell
+       name: Spell Checker (from codespell repo)
+       stages: [pre-commit]
+ - repo: local
+   hooks:
+     - id: check-notebook-cells-not-run
+       name: check notebook cells have not been run
+       language: script
+       entry: .githooks/check-notebook-cells-not-run
