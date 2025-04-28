@@ -53,23 +53,33 @@ Clone the repo or download as a zip and extract.
 
 ### cd into the code folder
 
-Open Anaconda prompt (Windows) or the system Command line interface then naviguate to the code
+Open Anaconda prompt (Windows) or the system Command line interface then naviguate to the code.
 ```sh
-cd. ai-readi-notebooks
+cd ai-readi-notebooks
 ```
 
-### Setup conda env
+### Setup conda env 
 ```sh
 $ conda env create -f environment.yml
 ```
+### Setup pre-commit
+Caution: at this time, the pre-commit requires bash shell, so if you plan to make updates to notebooks you may need to use a linux or linux-like environment that has access to a bash shell. A python implementation of the check may be created in the future.
+
+The purpose of this check is to avoid saving sensitive data into github. Be sure to use the jupyter tools to clean the outputs before attempting a checkin.
+```sh
+$ conda activate ai-readi-notebooks
+$ pre-commit install
+```
 
 ### Setup kernel for Jupyter lab
+If you would like to have one jupyter install that can be used by several environments, set up the connection as shown below. Otherwise, you can install jupyterlab or jupyter notebooks inside your ai-readi-notebooks environment using conda install.
 ```sh
-$ conda activate ai-readi--notebooks
+$ conda activate ai-readi-notebooks
 $ conda install ipykernel
 $ ipython kernel install --user --name=ai-readi-notebooks
 $ conda deactivate
 ```
+
 ### Launch Jupyter lab
 Launch Jupyter lab and naviguate to `main` folders to select the notebook you want to use (there is one notebook per data type). Make sure to change the kernel to "ai-readi-notebooks" (e.g., see [here](https://doc.cocalc.com/howto/jupyter-kernel-selection.html#cocalc-s-jupyter-notebook)). We recommend to use the [JupyterLab code formatter](https://github.com/ryantam626/jupyterlab_code_formatter) along with the [Black](https://github.com/psf/black) and [isort](https://github.com/PyCQA/isort) formatters to facilitate compliance with PEP8 if you are editing the notebook.
 
@@ -102,7 +112,7 @@ This project is funded by the NIH under award number 1OT2OD032644. The content i
 <div align="center">
 
 <a href="https://aireadi.org">
-  <img src="https://github.com/AI-READI/AI-READI-logo/raw/main/logo/png/option2.png" height="200" />
+  <img src="https://fairdataihub.org/images/hero/aireadi-logo.png" alt="logo" width="200" height="auto" />
 </a>
 
 </div>
