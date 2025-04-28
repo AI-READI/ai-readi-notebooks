@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# inspired by https://stackoverflow.com/questions/60711665/how-to-prevent-git-from-commiting-jupyter-notebook-results
+# check to see if jupyter notebook has been cleaned out
+# refuse to check it in if any cell has been run since the last clean out
+
+for f in $(git diff --name-only --cached); do
+  if [[ $f == *.ipynb ]]; then
+    # if a cell has not been run, the execution_count will be null
+    # if a cell has been run, the execution_count will be a number
+
+    cmnd="cat '${f}' | grep -i execution | grep -v null"
+    eval has_content=\`${cmnd}\`
+    if [ -n "$has_content" ];
+    then
+        echo 'Notebook ' $f ' output cells are not clean!'
+        echo 'Unstage ' $f ' file and clean its cell outputs'
+        # optional echo to see how many cells were executed
+        echo 'Executed cells ' $has_content
+        echo ' '
+        echo 'This message is from .githooks/check-notebook-cells-not-run'
+        exit 1
+    fi
+  fi
+done 
