@@ -72,7 +72,7 @@ $ pre-commit install
 ```
 
 ### Setup kernel for Jupyter lab
-If you would like to have one jupyter install that can be used by several environments, set up the connection as shown below. Otherwise, you can install jupyterlab or jupyter notebooks inside your ai-readi-notebooks environment using 'conda install jupyterlab'.
+If you would like to have one jupyter install that can be used by several environments, set up the connection as shown below. Otherwise, you can install jupyterlab or jupyter notebooks inside your ai-readi-notebooks environment using 'conda install jupyterlab' or 'conda install jupyter notebook'.
 ```sh
 $ conda activate ai-readi-notebooks
 $ conda install ipykernel
