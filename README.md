@@ -13,17 +13,17 @@ Jupyter notebooks that provide examples Python code snippets for working with th
 <br />
 
 <p>
-  <a href="https://github.com/AI-READI/template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/AI-READI/template.svg?style=flat-square" alt="contributors" />
+  <a href="https://github.com/AI-READI/ai-readi-notebooks/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/AI-READI/ai-readi-notebooks.svg?style=flat-square" alt="contributors" />
   </a>
-  <a href="https://github.com/AI-READI/template/stargazers">
-    <img src="https://img.shields.io/github/stars/AI-READI/template.svg?style=flat-square" alt="stars" />
+  <a href="https://github.com/AI-READI/ai-readi-notebooks/stargazers">
+    <img src="https://img.shields.io/github/stars/AI-READI/ai-readi-notebooks.svg?style=flat-square" alt="stars" />
   </a>
-  <a href="https://github.com/AI-READI/template/issues/">
-    <img src="https://img.shields.io/github/issues/AI-READI/template.svg?style=flat-square" alt="open issues" />
+  <a href="https://github.com/AI-READI/ai-readi-notebooks/issues/">
+    <img src="https://img.shields.io/github/issues/ai-readi-notebooks/ai-readi-notebooks.svg?style=flat-square" alt="open issues" />
   </a>
-  <a href="https://github.com/AI-READI/template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/AI-READI/template.svg?style=flat-square" alt="license" />
+  <a href="https://github.com/AI-READI/ai-readi-notebooks/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/AI-READI/ai-readi-notebooks.svg?style=flat-square" alt="license" />
   </a>
 </p>
    
