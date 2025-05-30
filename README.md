@@ -38,10 +38,10 @@ Jupyter notebooks that provide examples Python code snippets for working with th
 
 ## Description
 
-This repository contains Jupyter notebooks developed by the AI-READI team to provide examples for working with the AI-READI dataset. The dataset is accessible on [FAIRhub](https://doi.org/10.60775/fairhub.1). More details about the dataset are available in the [dataset documentation](https://docs.aireadi.org).
+This repository contains Jupyter notebooks developed by the AI-READI team to provide examples for working with the AI-READI dataset. The dataset is accessible on [FAIRhub](https://doi.org/10.60775/fairhub.2). More details about the dataset are available in the [dataset documentation](https://docs.aireadi.org).
 
 ## Standard followed
-The overall code is structured according to the [FAIR-BioRS guidelines](https://fair-biors.org/). The Python code in the Jupyter notebooks, located in the `main` folder follow the [PEP8 guidelines](https://peps.python.org/pep-0008). Functions are documented with docstring formatted following [Google's style guide](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings). All the dependencies are documented in the [environment.yml](environment.yml) file.
+The overall code is structured according to the [FAIR-BioRS guidelines](https://fair-biors.org/). All the dependencies are documented in the [environment.yml](environment.yml) file.
 
 ## Using the Jupyter notebooks
 
